@@ -22,6 +22,20 @@
       "when": 1790938548515,
       "tag": "0002_amusing_miss_america",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1790943435000,
+      "tag": "0003_flat_kronos",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1791139140608,
+      "tag": "0004_clear_scalphunter",
+      "breakpoints": true
     }
   ]
 }
