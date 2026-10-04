@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790867209944,
+      "tag": "0000_unknown_king_bedlam",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790937019898,
+      "tag": "0001_thankful_selene",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790938548515,
+      "tag": "0002_amusing_miss_america",
+      "breakpoints": true
+    }
+  ]
+}
