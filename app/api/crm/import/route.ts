@@ -8,7 +8,7 @@ const input=z.object({products:z.array(z.object({id:z.string().uuid(),name:z.str
 export async function POST(req:Request){
  // The public UI never receives this one-off administrative import secret.
  // With no configured secret the import route is disabled entirely.
- if(!env.CRM_IMPORT_TOKEN||req.headers.get('authorization')!=='Bearer '+env.CRM_IMPORT_TOKEN)return Response.json({error:'Innflutningur krefst sérstaks aðgangs.'},{status:403});
+ if(!env.CRM_IMPORT_TOKEN||req.headers.get('x-crm-import-token')!==env.CRM_IMPORT_TOKEN)return Response.json({error:'Innflutningur krefst sérstaks aðgangs.'},{status:403});
  if(req.headers.get('sec-fetch-site')==='cross-site')return Response.json({error:'Óheimil beiðni.'},{status:403});
  let parsed;try{parsed=input.safeParse(await req.json())}catch{return Response.json({error:'Ógild innflutningsgögn.'},{status:400})}
  if(!parsed.success)return Response.json({error:'Innflutningsgögn standast ekki yfirferð.',details:parsed.error.flatten()},{status:400});

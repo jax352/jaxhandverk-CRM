@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Orkuland · Samskiptakerfi",
-  description: "Viðskiptavinir, samskipti og eftirfylgni Orkulands.",
+  title: "Jax Handverk · CRM",
+  description: "Viðskiptavinir, vörukaup og eftirfylgni Jax Handverks.",
   other: {
     "codex-preview": "development",
   },
