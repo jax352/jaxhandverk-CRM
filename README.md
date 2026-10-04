@@ -28,17 +28,6 @@ Ný hýsing þarf eigin gagnagrunn og eigin aðgangsstýringu áður en kerfið 
 
 ## Tæknilegar leiðbeiningar
 
-# Orkuland · Samskiptakerfi
-
-Einkageymsla fyrir frumkóða Orkuland CRM, viðmót, myndir og gagnagrunnsskilgreiningar.
-
-- GitHub: https://github.com/jax352/orkuland-crm
-- Kerfið: https://orkuland-crm.jonaxel.chatgpt.site/
-- Viðskiptavinafærslur, samskiptasaga og verkefni eru geymd í sér Cloudflare D1 gagnagrunni. Þessi geymsla er afrit af kóðanum og inniheldur ekki afrit af þeim færslum.
-- Lykilorð, `.env` skrár, `node_modules` og staðbundnar keyrsluskrár eiga ekki að fara á GitHub.
-
-## Tæknilegar leiðbeiningar
-
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
 
 ## Prerequisites
