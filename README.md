@@ -1,5 +1,7 @@
 # jaxhandverk-CRM
 
+> Vinna úr mörgum tölvum og síma með Codex og Claude: [skýleiðbeiningar](CLOUD.md). Sameiginlegur kóði er í GitHub; lifandi gögn eru í núverandi Sites-hýsingu.
+
 CRM fyrir Jax Handverk, afritað úr Orkuland CRM sem grunnur fyrir áframhaldandi aðlögun.
 
 Grunnurinn heldur utan um viðskiptavini, samskipti og eftirfylgni. Útlit og Orkuland-merkingar eru enn frá upprunaverkefninu.

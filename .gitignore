@@ -46,3 +46,8 @@ next-env.d.ts
 /.codex/
 /outputs/
 /work/
+
+!.dev.vars.example
+!.env.example
+/.runtime/
+/.claude/settings.local.json
