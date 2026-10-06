@@ -26,6 +26,6 @@
 .task-phone{white-space:nowrap}
 .task-customer a:hover{text-decoration:underline}
 .task-customer .product-chip{font-size:11px;padding:3px 8px}
-.task-actions{display:flex;align-items:center;gap:16px;margin-top:8px;flex-wrap:nowrap}
+.task-actions{display:flex;align-items:center;gap:16px;margin-top:8px;flex-wrap:wrap}
 .task-row .task-actions .text-link{display:inline-flex;align-items:center;gap:5px;margin:0;white-space:nowrap}
 .task-actions svg{flex-shrink:0}
