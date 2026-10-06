@@ -29,3 +29,5 @@
 .task-actions{display:flex;align-items:center;gap:16px;margin-top:8px;flex-wrap:nowrap}
 .task-row .task-actions .text-link{display:inline-flex;align-items:center;gap:5px;margin:0;white-space:nowrap}
 .task-actions svg{flex-shrink:0}
+
+.task-actions{flex-wrap:wrap;row-gap:8px}
