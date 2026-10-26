@@ -31,3 +31,56 @@
 .task-actions svg{flex-shrink:0}
 
 .task-actions{flex-wrap:wrap;row-gap:8px}
+
+/* JAX Handverk — selected concept 3: warm earth tones. */
+:root{--ink:#33271f;--muted:#827365;--lime:#ead7c7;--line:#e8ded0;--canvas:#f3ece1;--olive:#a44b31;--brown:#3b291d}
+body{background:radial-gradient(ellipse at top right,#faf5ed 0,transparent 65%),var(--canvas);color:var(--ink)}
+.sidebar{background:linear-gradient(165deg,#3e2b1d,#302217 75%,#47301f);color:#e6cbb0;border:0}
+.brand img{filter:brightness(0) saturate(100%) invert(89%) sepia(18%) saturate(519%) hue-rotate(338deg) brightness(96%) contrast(91%)}
+.sidebar .nav-item{color:#e9d2bc;border-radius:10px;padding-top:15px;padding-bottom:15px}
+.sidebar .nav-item.active{background:#a74e33;color:#fff8ef;box-shadow:0 5px 16px #21140d24}
+.sidebar .nav-item:hover{background:#66442e;color:#fff8ef}
+.sidebar .nav-item.active:hover{background:#934027}
+.sidebar-bottom{color:#b48e68;border-top:1px solid #c6a48230;margin-left:12px;margin-right:12px}
+.sidebar-bottom strong,.sidebar-bottom small{color:#dfbd9b}
+.sidebar-bottom svg{opacity:.75}
+.topbar{border-color:#dcd0bf;color:#8a7059}.topbar .today{color:#8a7059}
+h1{color:#302016;font-weight:500;letter-spacing:-1.5px}.subtitle{color:#8a7d70}
+.primary{background:#a74e33;border-color:#a74e33;border-radius:10px;box-shadow:0 3px 8px #a74e3314}
+.primary:hover{background:#8e3d26;border-color:#8e3d26}
+.secondary{color:#774b34;border-color:#ddcdbb;background:#fffaf3}
+.secondary:hover{background:#f0e2d2}
+button:focus-visible,a:focus-visible{outline-color:#a74e33}
+.panel,.stat{background:#fffaf3;border-color:#e9dfd1;border-radius:15px;box-shadow:0 5px 22px #51341c04}
+.customer-workspace{gap:20px}.customers-panel{padding:0 17px}
+.search{background:#fbf6ed;border-color:#dfd2c0;border-radius:10px;padding:7px 13px}
+.search input{font-size:13px}.filter-line select{background:#fffaf3;border-color:#e3d6c6;color:#75624f}
+.customer-table th{font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:#7b6958;padding-top:18px;padding-bottom:18px}
+.customer-table td{border-color:#ebe2d7;padding-top:18px;padding-bottom:18px}
+.customer-link strong{font-family:Georgia,serif;font-size:14px;font-weight:400;color:#3d2b20}
+.customer-table tr.selected-customer td{background:#f2e4d3}
+.customer-table tbody tr:hover{background:#f8eee1}
+.table-contact{color:#7b6c60}.product-chip,.product-chip.tone-0{background:#e9d7c1;color:#6d4c32}
+.product-chip.tone-1{background:#dde3d3;color:#43583d}.product-chip.tone-2{background:#efd4c5;color:#874c33}
+.status-Virkur,.sale-badge{background:#dfe8d7;color:#3c6645}.status-Nýr{background:#ebe2d4;color:#7a6047}
+.status-Ísamtali{background:#f3e2c6;color:#96652d}.status-Óvirkur{background:#edddd6;color:#935d4a}
+.pagination{border-color:#e9dfd1}.pagination button{color:#865d43}.current-page{background:#e9d2bf;color:#7e432d}
+.customer-drawer{background:#fffaf3;border-color:#e9dfd1;border-radius:16px;padding:24px 20px;box-shadow:0 6px 25px #51341c05}
+.drawer-heading h2{font-size:30px;color:#35251a}.drawer-heading{padding:0 2px}
+.drawer-actions .danger-button{font-size:11px;color:#a54e38}.drawer-actions .text-link{font-size:12px}
+.detail-tabs{gap:10px;margin-top:22px}.detail-tabs button{font-size:12px;padding-bottom:13px;color:#847162}
+.detail-tabs button[aria-selected=true]{color:#a44b31;border-color:#a44b31}
+.info-card,.customer-drawer .bought-card{background:#fdf7ee;border-color:#e8ddce;border-radius:12px;padding:18px}
+.info-card h3,.customer-drawer .notes h3{font-family:Georgia,serif;font-size:16px;font-weight:400;color:#432e21}
+.info-card p,.customer-drawer .info-card dd{color:#72604f}
+.customer-drawer dd a,.invoice-preview a{color:#965036}
+.drawer-product-checks label{color:#6c5745}.drawer-product-checks button[data-state=checked],.product-check button[data-state=checked]{background:#a74e33;border-color:#a74e33}
+.text-link{color:#925038}.check{border-color:#c7b9a5}.completed .check{background:#dfe8d7;color:#3c6645}
+.task-row{border-color:#e9dfd1}.task-row strong{color:#493527}.deadline{color:#8a7864}.deadline.late{color:#b35c35}
+input,select,textarea{background:#fffcf7;border-color:#dfd1be}.sale-checkbox input{accent-color:#a74e33}
+input:focus,select:focus,textarea:focus{outline-color:#c18564}
+dialog{background:#fffaf3;border-color:#dfcfbc;border-radius:16px;box-shadow:0 24px 90px #39231838}dialog::backdrop{background:#30201355}
+.stat strong{color:#60432e}.stat>span{color:#8b735d}.notice{color:#526e43}
+footer{color:#9a8169;border-color:#ddcebc}
+@media(min-width:1400px){.customer-workspace{grid-template-columns:minmax(0,1.35fr) minmax(400px,1fr)}.customer-drawer{padding:26px 22px}.customer-drawer .detail-grid[data-tab="Upplýsingar"]>.info-panels{display:grid;grid-template-columns:1fr 1fr;gap:12px}.customer-drawer .info-card{margin:0}.customer-drawer .info-card:nth-child(3){grid-column:1/-1}.customer-drawer .bought-card{margin:0}.customer-drawer .info-card dl{display:block}.customer-drawer .info-card dt{margin-top:9px}.customer-drawer .notes:not(.bought-card){margin:0}}
+@media(max-width:760px){.sidebar{background:#3b291d}.sidebar .nav-item{padding:10px 9px}.sidebar .nav-item.active{background:#a74e33}.customer-drawer{padding:20px 14px}.drawer-heading h2{font-size:27px}.detail-tabs button{font-size:11px}.drawer-actions{flex-wrap:wrap}}
